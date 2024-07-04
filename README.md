@@ -1,7 +1,7 @@
 # BruteSSH
 brutessh is a simple commandline program written in C++ for GNU/linux to make dictionary attacks to an SSH server
 
-![](https://raw.githubusercontent.com/CaptainLainist/brutessh/main/test.png)
+![image](https://raw.githubusercontent.com/CaptainLainist/brutessh/main/test.png)
 
 to install it, just download the brutessh binary and place it in your path
 
