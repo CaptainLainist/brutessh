@@ -175,9 +175,9 @@ int main(){
         //si la contrasenya no es diccionario
         if (!p_d){
 
-            int result = future_connectSSH(host, port, user, password, minmili);
-            if (result == 0 || result == -1){
-                return result;
+            connectSSH(host, port, user, password);
+            if (lastchoice == 0 || lastchoice == -1){
+                return lastchoice;
             }
         //si la contrasenya si es diccionario
         } else {
